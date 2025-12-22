@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const sliderImages = [
   {
-    url: "https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&q=80&w=1920",
+    url: "https://www.canva.com/design/DAG8PpgcFTw/AMwPzw4Q0koRR0vqFut14A/view?utm_content=DAG8PpgcFTw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb48776010f",
     alt: "Precision Garment Care"
   },
   {
