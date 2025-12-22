@@ -1,6 +1,6 @@
 import React from 'react';
 import { Droplets, Facebook, Twitter, Instagram, Linkedin, MapPin } from 'lucide-react';
-import { useTranslation } from '../LanguageContext.tsx';
+import { useTranslation } from '../LanguageContext';
 import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               </div>
               <span className="text-2xl font-black tracking-tighter">SKYBLUE <span className="text-sky-500">CLEAN</span></span>
             </Link>
-            <p className="text-white/40 max-w-md text-xl leading-relaxed serif italic">
+            <p className="text-white/40 max-w-md text-xl serif italic">
               "Establishing the gold standard of environmental excellence across the West African sub-region."
             </p>
             <div className="flex gap-6">

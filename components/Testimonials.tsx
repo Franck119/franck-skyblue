@@ -1,7 +1,7 @@
 import React from 'react';
-import { useTranslation } from '../LanguageContext.tsx';
+import { useTranslation } from '../LanguageContext';
 import { Quote, Star } from 'lucide-react';
-import { TESTIMONIALS } from '../constants.tsx';
+import { TESTIMONIALS } from '../constants';
 import { motion } from 'framer-motion';
 
 const Testimonials: React.FC = () => {

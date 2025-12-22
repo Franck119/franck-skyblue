@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import PageHeader from '../components/PageHeader.tsx';
-import { useTranslation } from '../LanguageContext.tsx';
+import PageHeader from '../components/PageHeader';
+import { useTranslation } from '../LanguageContext';
 import { ShoppingCart, Star, ShieldCheck, Tag, ChevronRight, X, Plus, Minus, Check } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 

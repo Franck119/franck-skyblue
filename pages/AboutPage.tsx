@@ -1,6 +1,6 @@
 import React from 'react';
-import PageHeader from '../components/PageHeader.tsx';
-import { useTranslation } from '../LanguageContext.tsx';
+import PageHeader from '../components/PageHeader';
+import { useTranslation } from '../LanguageContext';
 import { motion } from 'framer-motion';
 import { Leaf, Recycle, Zap, Droplets, Users, ShieldCheck } from 'lucide-react';
 

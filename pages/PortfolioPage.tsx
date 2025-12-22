@@ -1,8 +1,8 @@
 import React from 'react';
-import PageHeader from '../components/PageHeader.tsx';
-import { PORTFOLIO } from '../constants.tsx';
+import PageHeader from '../components/PageHeader';
+import { PORTFOLIO } from '../constants';
 import { MapPin, Target, Lightbulb, TrendingUp } from 'lucide-react';
-import { useTranslation } from '../LanguageContext.tsx';
+import { useTranslation } from '../LanguageContext';
 import { motion } from 'framer-motion';
 
 const PortfolioPage: React.FC = () => {

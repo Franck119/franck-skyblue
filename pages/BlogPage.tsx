@@ -1,7 +1,7 @@
 import React from 'react';
-import PageHeader from '../components/PageHeader.tsx';
-import { BLOG_POSTS } from '../constants.tsx';
-import { useTranslation } from '../LanguageContext.tsx';
+import PageHeader from '../components/PageHeader';
+import { BLOG_POSTS } from '../constants';
+import { useTranslation } from '../LanguageContext';
 import { Calendar, User, ArrowRight } from 'lucide-react';
 
 const BlogPage: React.FC = () => {
