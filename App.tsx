@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
-import { LanguageProvider } from './LanguageContext.tsx';
-import Navbar from './components/Navbar.tsx';
-import Footer from './components/Footer.tsx';
-import FloatingChat from './components/FloatingChat.tsx';
+import { LanguageProvider } from './LanguageContext';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import FloatingChat from './components/FloatingChat';
 
 // Pages
-import HomePage from './pages/HomePage.tsx';
-import AboutPage from './pages/AboutPage.tsx';
-import ServicesPage from './pages/ServicesPage.tsx';
-import PortfolioPage from './pages/PortfolioPage.tsx';
-import ContactPage from './pages/ContactPage.tsx';
-import BlogPage from './pages/BlogPage.tsx';
-import BenefitsPage from './pages/BenefitsPage.tsx';
-import ShopPage from './pages/ShopPage.tsx';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ServicesPage from './pages/ServicesPage';
+import PortfolioPage from './pages/PortfolioPage';
+import ContactPage from './pages/ContactPage';
+import BlogPage from './pages/BlogPage';
+import BenefitsPage from './pages/BenefitsPage';
+import ShopPage from './pages/ShopPage';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();

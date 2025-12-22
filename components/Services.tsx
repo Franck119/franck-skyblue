@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import * as LucideIcons from 'lucide-react';
-import { SERVICES } from '../constants.tsx';
-import { useScrollReveal } from '../hooks/useScrollReveal.ts';
+import { SERVICES } from '../constants';
+import { useScrollReveal } from '../hooks/useScrollReveal';
 import { ArrowRight } from 'lucide-react';
-import { useTranslation } from '../LanguageContext.tsx';
+import { useTranslation } from '../LanguageContext';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import * as LucideIcons from 'lucide-react';
-import { VALUES } from '../constants.tsx';
-import { useScrollReveal } from '../hooks/useScrollReveal.ts';
-import { useTranslation } from '../LanguageContext.tsx';
+import { VALUES } from '../constants';
+import { useScrollReveal } from '../hooks/useScrollReveal';
+import { useTranslation } from '../LanguageContext';
 import { motion } from 'framer-motion';
 
 const Values: React.FC = () => {

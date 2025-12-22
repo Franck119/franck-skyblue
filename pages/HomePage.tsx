@@ -1,14 +1,14 @@
 import React from 'react';
-import Hero from '../components/Hero.tsx';
-import About from '../components/About.tsx';
-import Values from '../components/Values.tsx';
-import Services from '../components/Services.tsx';
-import Calculator from '../components/Calculator.tsx';
-import Portfolio from '../components/Portfolio.tsx';
-import Testimonials from '../components/Testimonials.tsx';
-import Contact from '../components/Contact.tsx';
-import BeforeAfterSlider from '../components/BeforeAfterSlider.tsx';
-import LuxuryShowcase from '../components/LuxuryShowcase.tsx';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Values from '../components/Values';
+import Services from '../components/Services';
+import Calculator from '../components/Calculator';
+import Portfolio from '../components/Portfolio';
+import Testimonials from '../components/Testimonials';
+import Contact from '../components/Contact';
+import BeforeAfterSlider from '../components/BeforeAfterSlider';
+import LuxuryShowcase from '../components/LuxuryShowcase';
 import { motion } from 'framer-motion';
 
 const HomePage: React.FC = () => {
