@@ -5,15 +5,15 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const sliderImages = [
   {
-    url: "https://github.com/Franck119/franck-skyblue/blob/main/pexels-heyho-6444244.jpg?raw=true",
+    url: "https://github.com/Franck119/franck-skyblue/blob/main/Gemini_Generated_Image_h4yfuth4yfuth4yf.png?raw=true",
     alt: "Precision Garment Care"
   },
   {
-    url: "https://images.unsplash.com/photo-1594932224828-b4b059b6f6f9?auto=format&fit=crop&q=80&w=1920",
+    url: "https://github.com/Franck119/franck-skyblue/blob/main/Gemini_Generated_Image_fk34a9fk34a9fk34.png?raw=true",
     alt: "Luxury Fabric Maintenance"
   },
   {
-    url: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=1920",
+    url: "https://github.com/Franck119/franck-skyblue/blob/main/Gemini_Generated_Image_wglhm3wglhm3wglh.png?raw=true",
     alt: "High Fashion Conservation"
   }
 ];
