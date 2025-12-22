@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation } from '../LanguageContext.tsx';
+import { useTranslation } from '../LanguageContext';
 import { Award, Zap, ShieldCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import { PORTFOLIO } from '../constants.tsx';
+import { PORTFOLIO } from '../constants';
 import { MapPin, ArrowUpRight, Target, Lightbulb, TrendingUp } from 'lucide-react';
-import { useScrollReveal } from '../hooks/useScrollReveal.ts';
-import { useTranslation } from '../LanguageContext.tsx';
+import { useScrollReveal } from '../hooks/useScrollReveal';
+import { useTranslation } from '../LanguageContext';
 import { motion } from 'framer-motion';
 
 const Portfolio: React.FC = () => {

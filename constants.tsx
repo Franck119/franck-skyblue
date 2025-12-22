@@ -1,5 +1,4 @@
-
-import { Service, PortfolioItem, Value, BlogPost } from './types.ts';
+import { Service, PortfolioItem, Value, BlogPost } from './types';
 
 export interface Benefit {
   id: string;
@@ -187,7 +186,6 @@ export const SERVICES: Service[] = [
     id: 'res-2',
     title: { en: 'Upholstery & Fine Fabric Care', fr: 'Soin des Tissus Fins', ru: 'Уход за Тканями и Мебелью' },
     description: { en: 'Specialized cleaning for designer furniture and carpets.', fr: 'Nettoyage spécialisé pour meubles design.', ru: 'Специальная чистка дизайнерской мебели и ковров.' },
-    // Removed duplicate 'ru' property to fix error in line 189
     detailedDescription: { en: 'Steam and dry extraction methods that protect high-fashion textiles and natural fibers.', fr: 'Méthodes d\'extraction à la vapeur et à sec.', ru: 'Методы паровой и сухой экстракции для защиты натуральных волокон.' },
     icon: 'Wind',
     category: 'Residential',
@@ -214,7 +212,7 @@ export const VALUES: Value[] = [
   },
   {
     title: { en: 'Surgical Precision', fr: 'Précision Chirurgicale', ru: 'Хирургическая Точность' },
-    description: { en: 'Every movement is calculated to ensure zero trace of contaminants.', fr: 'Chaque mouvement est calculé pour garantir zéro trace de contaminants.', ru: 'Каждое движение рассчитано для обеспечения нулевого следа загрязнений.' },
+    description: { en: 'Every movement is calculated to ensure zero trace of contaminants.', fr: 'Chaque mouvement est calculé pour garantir zéro trace de contaminants.', ru: 'Кажвое движение рассчитано для обеспечения нулевого следа загрязнений.' },
     icon: 'Target'
   },
   {

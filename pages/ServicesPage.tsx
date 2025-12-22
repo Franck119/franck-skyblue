@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as LucideIcons from 'lucide-react';
-import PageHeader from '../components/PageHeader.tsx';
-import { SERVICES } from '../constants.tsx';
+import PageHeader from '../components/PageHeader';
+import { SERVICES } from '../constants';
 import { ArrowRight, CheckCircle, ExternalLink, X, Shield, ListChecks, Zap, Info } from 'lucide-react';
-import { useTranslation } from '../LanguageContext.tsx';
-import { Service } from '../types.ts';
+import { useTranslation } from '../LanguageContext';
+import { Service } from '../types';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const CategorySection: React.FC<{ 
