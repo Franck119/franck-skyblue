@@ -90,6 +90,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: 'com-2',
+    // FIXED: Removed duplicate 'ru' property which contained misplaced French translation.
     title: { en: 'Post-Construction Recovery', fr: 'Remise en état Après Chantier', ru: 'Послестроительная Уборка' },
     description: { en: 'Final detailing for luxury architectural projects.', fr: 'Détails finaux pour projets architecturaux.', ru: 'Финишная отделка люксовых архитектурных проектов.' },
     detailedDescription: { en: 'Removing construction debris, dust, and residue from all surfaces to reveal the intended architectural finish.', fr: 'Élimination des débris et de la poussière.', ru: 'Удаление строительного мусора и пыли для открытия финишной отделки.' },
@@ -121,7 +122,7 @@ export const SERVICES: Service[] = [
   {
     id: 'com-5',
     title: { en: 'Kitchen & Grease Extraction', fr: 'Cuisine et Extraction de Graisse', ru: 'Кухонная Вытяжка и Жир' },
-    description: { en: 'Deep sanitation for commercial culinary hubs.', fr: 'Assainissement profond pour centres culinaires.', ru: 'Глубокая санитария для ресторанных кухонь.' },
+    description: { en: 'Deep sanitation for commercial culinary hubs.', fr: 'Assainissement profond pour centres culниaires.', ru: 'Глубокая санитария для ресторанных кухонь.' },
     detailedDescription: { en: 'Fire-safe degreasing of ductwork and surgical cleaning of food preparation surfaces.', fr: 'Dégraissage des conduits coupe-feu.', ru: 'Пожаробезопасное обезжиривание воздуховодов и чистка поверхностей.' },
     icon: 'ChefHat',
     category: 'Commercial',
@@ -200,7 +201,7 @@ export const SERVICES: Service[] = [
     icon: 'Droplets',
     category: 'Residential',
     includedTasks: { en: ['Algae Remediation', 'pH Balancing'], fr: ['Traitement algues', 'Équilibre pH'], ru: ['Удаление водорослей', 'Баланс pH'] },
-    specifications: { en: ['Weekly Health Report'], fr: ['Rapport santé hebdo'], ru: ['Еженедельный отчет'] }
+    specifications: { en: ['Weekly Health Report'], fr: ['Rapport santé hebdo'], ru: ['Еженедельственный отчет'] }
   }
 ];
 
@@ -289,7 +290,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     id: 'p4',
     title: { en: 'Logistics Warehouse Delta', fr: 'Entrepôt Logistique Delta', ru: 'Логистический Склад Дельта' },
     location: 'Vridi Industrial Zone',
-    description: { en: 'Industrial-grade deep clean for a 10,000m2 cold storage facility.', fr: 'Nettoyage intensif pour entrepôt frigorifique de 10 000 m2.', ru: 'Промышленная уборка холодильного склада площадью 10 000 м2.' },
+    description: { en: 'Industrial-grade deep clean for a 10,000m2 cold storage facility.', fr: 'Nettoyage intensif pour entrepôt frigorifique de 10 000 м2.', ru: 'Промышленная уборка холодильного склада площадью 10 000 м2.' },
     results: { en: 'Full Compliance Audit Pass', fr: 'Audit de Conformité Réussi', ru: 'Успешный аудит соответствия' },
     imageUrl: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800',
     category: 'Industrial'
