@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const sliderImages = [
   {
-    url: "https://github.com/Franck119/franck-skyblue/blob/main/pexels-heyho-6444244.jpg",
+    url: "https://github.com/Franck119/franck-skyblue/blob/main/pexels-heyho-6444244.jpg?raw=true",
     alt: "Precision Garment Care"
   },
   {
