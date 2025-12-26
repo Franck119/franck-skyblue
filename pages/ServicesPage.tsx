@@ -31,10 +31,10 @@ const CategorySection: React.FC<{
           const IconComponent = (LucideIcons as any)[service.icon];
           // Unique stable high-res IDs from Unsplash for different categories
           const catImages: Record<string, string> = {
-            'Specialized': 'https://images.unsplash.com/photo-1579152276502-545a248a9931',
-            'Commercial': 'https://images.unsplash.com/photo-1497366216548-37526070297c',
-            'Industrial': 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158',
-            'Residential': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c'
+            'Specialized': 'https://github.com/Franck119/franck-skyblue/blob/main/100.png?raw=true',
+            'Commercial': 'https://github.com/Franck119/franck-skyblue/blob/main/102.png?raw=true',
+            'Industrial': 'https://github.com/Franck119/franck-skyblue/blob/main/104.png?raw=true',
+            'Residential': 'https://images.unsplash.com/photo-1584622781564-1d987f7333c1'
           };
           const imageUrl = `${catImages[service.category] || 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a'}?auto=format&fit=crop&q=80&w=800&sig=${service.id}`;
 
@@ -123,7 +123,7 @@ const ServicesPage: React.FC = () => {
       <PageHeader 
         title={lang === 'en' ? "Service Divisions" : "Divisions de Service"} 
         subtitle={lang === 'en' ? "17 specialized solutions powering West Africa's leading industries." : "17 solutions spécialisées au service des plus grandes industries d'Afrique de l'Ouest."}
-        imageUrl="https://images.unsplash.com/photo-1581578731548-c64695ce6958?auto=format&fit=crop&q=80&w=1920"
+        imageUrl="https://github.com/Franck119/franck-skyblue/blob/main/102.png?raw=true?auto=format&fit=crop&q=80&w=1920"
       />
 
       <div className="sticky top-20 z-40 bg-white/80 backdrop-blur-xl border-b border-slate-200">
@@ -202,7 +202,7 @@ const ServicesPage: React.FC = () => {
               </button>
               <div className="w-full md:w-1/3 bg-slate-50 relative flex flex-col">
                 <div className="relative h-2/3 overflow-hidden">
-                  <img src={`https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=800&sig=${selectedService.id}`} className="w-full h-full object-cover grayscale-[0.2]" alt={t(selectedService.title)} />
+                  <img src={`https://github.com/Franck119/franck-skyblue/blob/main/100.png?raw=true?auto=format&fit=crop&q=80&w=800&sig=${selectedService.id}`} className="w-full h-full object-cover grayscale-[0.2]" alt={t(selectedService.title)} />
                   <div className="absolute inset-0 bg-gradient-to-t from-sky-950/90 to-transparent flex flex-col justify-end p-12 text-white">
                     <div className="bg-sky-500 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-xl">
                       {React.createElement((LucideIcons as any)[selectedService.icon] || Zap, { className: "w-8 h-8 text-white" })}
