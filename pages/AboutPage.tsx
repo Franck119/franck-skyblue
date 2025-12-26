@@ -12,7 +12,7 @@ const AboutPage: React.FC = () => {
       <PageHeader 
         title={lang === 'en' ? "About SkyBlue" : "À Propos de SkyBlue"} 
         subtitle={lang === 'en' ? "Pioneering the future of hygiene and waste management in West Africa." : "Pionnier de l'avenir de l'hygiène et de la gestion des déchets en Afrique de l'Ouest."}
-        imageUrl="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=1200"
+        imageUrl="https://github.com/Franck119/franck-skyblue/blob/main/100.png?raw=true?auto=format&fit=crop&q=80&w=1200"
       />
 
       {/* Core Mission Section */}
@@ -39,7 +39,7 @@ const AboutPage: React.FC = () => {
             <div className="relative">
               <div className="aspect-square rounded-[4rem] overflow-hidden shadow-2xl diamond-polish border-8 border-white">
                 <img 
-                  src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=800" 
+                  src="https://github.com/Franck119/franck-skyblue/blob/main/108.png?raw=true?auto=format&fit=crop&q=80&w=800" 
                   alt="Sustainability" 
                   className="w-full h-full object-cover"
                 />
