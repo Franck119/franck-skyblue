@@ -14,7 +14,7 @@ const showcaseItems = [
     subtitle: "Reflecting excellence in every architectural detail."
   },
   {
-    url: "https://images.unsplash.com/photo-1600607687920-4e2c5f012051?auto=format&fit=crop&q=80&w=2000",
+    url: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&fit=crop&q=80&w=1200",
     title: "Elite Residences",
     subtitle: "Curating immaculate living environments for the 1%."
   }
