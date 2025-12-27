@@ -18,7 +18,7 @@ const About: React.FC = () => {
               className="aspect-[4/5] rounded-[5rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.8)] border border-white/10"
             >
               <img 
-                src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=800" 
+                src="https://github.com/Franck119/franck-skyblue/blob/main/109.png?raw=true" 
                 alt="SkyBlue Professionalism" 
                 className="w-full h-full object-cover grayscale-[0.5] hover:grayscale-0 transition-all duration-1000"
               />
