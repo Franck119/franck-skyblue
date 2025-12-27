@@ -33,6 +33,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Surgical-grade care for elite vehicles using pH-neutral chemicals and non-abrasive techniques.', fr: 'Soins de qualité chirurgicale pour véhicules d\'élite.', ru: 'Профессиональный уход за элитными авто с использованием pH-нейтральных средств.' },
     icon: 'Car',
     category: 'Specialized',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/107.png?raw=true',
     includedTasks: { en: ['Ceramic Coating', 'Steam Sanitization'], fr: ['Revêtement céramique', 'Bio-stérilisation'], ru: ['Керамическое покрытие', 'Паровая дезинфекция'] },
     specifications: { en: ['Scratch-free guarantee'], fr: ['Garantie sans rayures'], ru: ['Гарантия отсутствия царапин'] }
   },
@@ -43,6 +44,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Precision detailing for private aircraft, ensuring immaculate cabin environments and drag-reducing exterior finishes.', fr: 'Détails de précision pour les avions privés.', ru: 'Прецизионный детейлинг для частной авиации, обеспечивающий безупречную чистоту кабины.' },
     icon: 'Plane',
     category: 'Specialized',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/108.png?raw=true',
     includedTasks: { en: ['Cabin Sterilization', 'Brightwork Polishing'], fr: ['Stérilisation cabine', 'Polissage métaux'], ru: ['Стерилизация кабины', 'Полировка металла'] },
     specifications: { en: ['FAA/EASA standards'], fr: ['Normes FAA/EASA'], ru: ['Стандарты FAA/EASA'] }
   },
@@ -53,6 +55,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Zero-tolerance pathogen control for surgical environments and diagnostic labs.', fr: 'Contrôle des agents pathogènes tolérance zéro.', ru: 'Нулевая терпимость к патогенам в операционных и лабораториях.' },
     icon: 'Activity',
     category: 'Specialized',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/109.png?raw=true',
     includedTasks: { en: ['UV-C Sterilization', 'Terminal Cleaning'], fr: ['Stérilisation UV-C', 'Nettoyage terminal'], ru: ['УФ-стерилизация', 'Терминальная уборка'] },
     specifications: { en: ['ATP testing certified'], fr: ['Certifié tests ATP'], ru: ['Сертифицированные ATP-тесты'] }
   },
@@ -63,6 +66,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Removing micro-particulates that threaten high-availability hardware through specialized sub-floor vacuuming.', fr: 'Élimination des micro-particules pour le matériel.', ru: 'Удаление микрочастиц, угрожающих оборудованию, через вакуумацию подпола.' },
     icon: 'Server',
     category: 'Specialized',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/110.png?raw=true',
     includedTasks: { en: ['Anti-static Cleaning', 'Sub-floor Vacuuming'], fr: ['Nettoyage antistatique', 'Aspiration faux plancher'], ru: ['Антистатическая чистка', 'Вакуумация подполья'] },
     specifications: { en: ['ISO 14644-1 compliant'], fr: ['Conforme ISO 14644-1'], ru: ['Соответствие ISO 14644-1'] }
   },
@@ -73,6 +77,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Ensuring elite venues are returned to pristine condition within hours of large-scale corporate or private galas.', fr: 'Remise en état impeccable des lieux d\'élite.', ru: 'Возвращение элитных площадок в идеальное состояние после гала-концертов.' },
     icon: 'Sparkles',
     category: 'Specialized',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/111.png?raw=true',
     includedTasks: { en: ['Odor Neutralization', 'Surface Buffing'], fr: ['Neutralisation d\'odeurs', 'Lustrage'], ru: ['Нейтрализация запахов', 'Полировка поверхностей'] },
     specifications: { en: ['24h Turnaround'], fr: ['Délai de 24h'], ru: ['Готовность за 24 часа'] }
   },
@@ -85,6 +90,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Ergonomic health focused cleaning that reduces employee sick leave and boosts productivity.', fr: 'Nettoyage axé sur la santé ergonomique.', ru: 'Уборка, ориентированная на здоровье сотрудников и продуктивность.' },
     icon: 'Briefcase',
     category: 'Commercial',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/Image%201.jpg?raw=true',
     includedTasks: { en: ['HEPA Vacuuming', 'Desk Sterilization'], fr: ['Aspiration HEPA', 'Stérilisation bureaux'], ru: ['HEPA-фильтрация', 'Стерилизация столов'] },
     specifications: { en: ['Non-toxic agents'], fr: ['Agents non toxiques'], ru: ['Нетоксичные средства'] }
   },
@@ -96,16 +102,18 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Removing construction debris, dust, and residue from all surfaces to reveal the intended architectural finish.', fr: 'Élimination des débris et de la poussière.', ru: 'Удаление строительного мусора и пыли для открытия финишной отделки.' },
     icon: 'HardHat',
     category: 'Commercial',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/100.png?raw=true',
     includedTasks: { en: ['Adhesive Removal', 'Fine Dust Extraction'], fr: ['Retrait d\'adhésifs', 'Extraction poussière'], ru: ['Удаление клея', 'Удаление мелкодисперсной пыли'] },
     specifications: { en: ['Inspection Ready'], fr: ['Prêt pour inspection'], ru: ['Готовность к инспекции'] }
   },
   {
     id: 'com-3',
-    title: { en: 'Facade & High-Rise Glazing', fr: 'Façade et Vitrage de Grande Hauteur', ru: 'Мойка Фасадов и Витражей' },
+    title: { en: 'Drone Facade & High-Rise Glazing', fr: 'Drone Façade et Vitrage de Grande Hauteur', ru: 'Мойка Фасадов и Витражей' },
     description: { en: 'Pure water window cleaning for corporate towers.', fr: 'Nettoyage de vitres à l\'eau pure pour tours.', ru: 'Мойка окон чистой водой для бизнес-центров.' },
     detailedDescription: { en: 'High-access cleaning using specialized rope access and telescopic water-fed poles.', fr: 'Nettoyage en hauteur par accès sur corde.', ru: 'Высотная мойка с использованием промышленного альпинизма.' },
     icon: 'Building',
     category: 'Commercial',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/Gemini_Generated_Image_wglhm3wglhm3wglh.png?raw=true',
     includedTasks: { en: ['Rope Access Cleaning', 'Mineral Deposit Removal'], fr: ['Nettoyage par cordes', 'Retrait dépôts'], ru: ['Промышленный альпинизм', 'Удаление отложений'] },
     specifications: { en: ['Safety Harness Certified'], fr: ['Certifié harnais sécurité'], ru: ['Сертифицированная страховка'] }
   },
@@ -116,6 +124,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Preserving the mirror finish of marble floors and metallic accents in elite retail environments.', fr: 'Préservation du fini miroir du marbre.', ru: 'Сохранение зеркального блеска мраморных полов и металла в бутиках.' },
     icon: 'ShoppingBag',
     category: 'Commercial',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/102.png?raw=true',
     includedTasks: { en: ['Glass Display Buffing', 'Brass Polishing'], fr: ['Lustrage vitrines', 'Polissage laiton'], ru: ['Полировка витрин', 'Полировка латуни'] },
     specifications: { en: ['After-hours service'], fr: ['Service après-vente'], ru: ['Обслуживание в нерабочие часы'] }
   },
@@ -126,6 +135,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Fire-safe degreasing of ductwork and surgical cleaning of food preparation surfaces.', fr: 'Dégraissage des conduits coupe-feu.', ru: 'Пожаробезопасное обезжиривание воздуховодов и чистка поверхностей.' },
     icon: 'ChefHat',
     category: 'Commercial',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/103.png?raw=true',
     includedTasks: { en: ['Duct Degreasing', 'Tile Deep Scrub'], fr: ['Dégraissage conduits', 'Lavage carrelage'], ru: ['Обезжиривание вытяжки', 'Чистка плитки'] },
     specifications: { en: ['NFPA 96 Standards'], fr: ['Normes NFPA 96'], ru: ['Стандарты NFPA 96'] }
   },
@@ -138,6 +148,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Engineered for safety and compliance. We handle heavy machinery degreasing and hazardous site restoration.', fr: 'Conçu pour la sécurité et la conformité.', ru: 'Обезжиривание тяжелого оборудования и восстановление участков.' },
     icon: 'Factory',
     category: 'Industrial',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/104.png?raw=true',
     includedTasks: { en: ['Machine Degreasing', 'Floor Scrubbing'], fr: ['Dégraissage machine', 'Lavage sols'], ru: ['Обезжиривание машин', 'Скраббинг полов'] },
     specifications: { en: ['OSHA Compliant'], fr: ['Conforme OSHA'], ru: ['Соответствие OSHA'] }
   },
@@ -148,6 +159,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Removing Sahelian dust and organic buildup from PV panels to ensure optimal photon absorption.', fr: 'Retrait de la poussière sahélienne.', ru: 'Удаление пыли Сахеля с панелей для оптимального поглощения энергии.' },
     icon: 'Sun',
     category: 'Industrial',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/105.png?raw=true',
     includedTasks: { en: ['Deionized Water Wash', 'Inspection Report'], fr: ['Lavage eau деionisée', 'Rapport d\'inspection'], ru: ['Мойка деионизированной водой', 'Инспекция'] },
     specifications: { en: ['Zero Residue Guarantee'], fr: ['Garantie zéro résidu'], ru: ['Гарантия отсутствия налета'] }
   },
@@ -158,6 +170,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Sub-zero sanitation protocols to prevent microbial growth in temperature-controlled food storage.', fr: 'Protocoles d\'assainissement sous zéro.', ru: 'Санитарные протоколы для работы при отрицательных температурах.' },
     icon: 'Truck',
     category: 'Industrial',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/106.png?raw=true',
     includedTasks: { en: ['Anti-freeze Cleaning', 'Mold Remediation'], fr: ['Nettoyage antigel', 'Traitement moisissure'], ru: ['Мойка незамерзайкой', 'Удаление плесени'] },
     specifications: { en: ['HACCP Compliant'], fr: ['Conforme HACCP'], ru: ['Соответствие HACCP'] }
   },
@@ -168,6 +181,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Our signature circular economy service using anaerobic digestion to produce purified biogas.', fr: 'Service d\'économie circulaire signature.', ru: 'Наш флагманский сервис по производству биогаза.' },
     icon: 'Zap',
     category: 'Industrial',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/112.png?raw=true',
     includedTasks: { en: ['Vacuum Extraction', 'Bio-Processing'], fr: ['Extraction sous vide', 'Bio-traitement'], ru: ['Вакуумная экстракция', 'Биообработка'] },
     specifications: { en: ['Certified Circularity'], fr: ['Circularité certifiée'], ru: ['Сертифицированная цикличность'] }
   },
@@ -180,6 +194,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'White-glove deep clean focusing on fine materials like marble, hardwood, and silk wall coverings.', fr: 'Nettoyage en gants blancs pour matériaux fins.', ru: 'Глубокая уборка элитных материалов: мрамора, дерева и шелка.' },
     icon: 'Home',
     category: 'Residential',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/Gemini_Generated_Image_h4yfuth4yfuth4yf.png?raw=true',
     includedTasks: { en: ['Marble Polishing', 'Intricate Dusting'], fr: ['Polissage marbre', 'Époussetage délicat'], ru: ['Полировка мрамора', 'Детальная чистка'] },
     specifications: { en: ['Pet-friendly chemicals'], fr: ['Produits pour animaux'], ru: ['Безопасно для питомцев'] }
   },
@@ -190,6 +205,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Steam and dry extraction methods that protect high-fashion textiles and natural fibers.', fr: 'Méthodes d\'extraction à la vapeur et à sec.', ru: 'Методы паровой и сухой экстракции для защиты натуральных волокон.' },
     icon: 'Wind',
     category: 'Residential',
+    imageUrl: 'https://github.com/Franck119/franck-skyblue/blob/main/Gemini_Generated_Image_jbl5m1jbl5m1jbl5.png?raw=true',
     includedTasks: { en: ['Silk Rug Cleaning', 'Leather Treatment'], fr: ['Nettoyage tapis soie', 'Soin du cuir'], ru: ['Чистка шелковых ковров', 'Уход за кожей'] },
     specifications: { en: ['Zero shrinkage guarantee'], fr: ['Garantie zéro rétrécissement'], ru: ['Гарантия отсутствия усадки'] }
   },
@@ -200,6 +216,7 @@ export const SERVICES: Service[] = [
     detailedDescription: { en: 'Advanced water testing and structural scrubbing to maintain crystal clear architectural water features.', fr: 'Tests d\'eau avancés et récurage structurel.', ru: 'Тестирование воды и чистка чаш для кристальной чистоты.' },
     icon: 'Droplets',
     category: 'Residential',
+    imageUrl: 'https://images.unsplash.com/photo-1542282088-fe8426682b8f?auto=format&fit=crop&q=80&w=1200',
     includedTasks: { en: ['Algae Remediation', 'pH Balancing'], fr: ['Traitement algues', 'Équilibre pH'], ru: ['Удаление водорослей', 'Баланс pH'] },
     specifications: { en: ['Weekly Health Report'], fr: ['Rapport santé hebdo'], ru: ['Еженедельственный отчет'] }
   }
