@@ -29,11 +29,32 @@ const AboutPage: React.FC = () => {
                 Beyond <span className="text-sky-500">Cleaning</span>: A Circular Future.
               </h3>
               <p className="text-xl text-slate-600 leading-relaxed">
-                SkyBlue Cleaning was founded with a singular vision: to bring world-class professional standards to the West African hygiene sector. Today, we go beyond simple sanitation to tackle the region's greatest environmental challenges.
+                Welcome to SkyBlue , the premier  sewage management and cleaning solutions provider poised to redefine hygiene and sanitation across Ivory Coast and West Africa. Founded with a vision to build the region's largest and most innovative cleaning empire, we combine local expertise with global standards to deliver unparalleled service.
+
+                Our journey began with a simple mission: to transform spaces into healthier, more productive environments. Drawing from Ivory Coast's booming economy—driven by cocoa exports, infrastructure projects, and urban growth. we've positioned ourselves as a leader in commercial, residential, and industrial cleaning. With a focus on sustainability, technology, and scalability, we're expanding beyond Ivory Coast to serve Ghana, Senegal, Nigeria, and beyond through the ECOWAS network.
+
+                What sets us apart? Our commitment to eco-friendly practices, cutting-edge equipment like autonomous sanitation systems, and a team of trained professionals who prioritize safety, efficiency, and customer satisfaction. As we grow, we're not just cleaning spaces—we're building a cleaner, greener future for West Africa. Join us on this ambitious path to excellence.
               </p>
               <p className="text-lg text-slate-500 italic">
                 "We don't just remove waste; we reclaim its value for a sustainable tomorrow."
               </p>
+
+              <p className="text-xl text-slate-600 leading-relaxed">
+                Our Values: 
+                Innovation: Leveraging the latest tools and green technologies.
+
+                Reliability: Consistent, high-quality service you can trust.
+                
+                Scalability: From local contracts to regional dominance.
+                
+                Community Impact: Supporting local economies and environmental initiatives.
+
+                Our Services:
+                At Jet-Clean, we offer a comprehensive range of cleaning services tailored to residential, commercial, and industrial needs. Whether you're a homeowner in Abidjan, a corporate office in Yamoussoukro, or a factory in West Africa's industrial hubs, our expert team ensures every space shines. We use eco-friendly products, advanced equipment, and proven techniques to deliver results that exceed expectations. All services include free consultations, flexible scheduling, and satisfaction guarantees.
+
+                
+              </p>
+              
             </motion.div>
             
             <div className="relative">
