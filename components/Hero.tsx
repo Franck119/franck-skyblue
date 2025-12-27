@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
     // Speed increased to 3000ms for high-energy high-fashion feel
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % sliderImages.length);
-    }, 3000);
+    }, 6000);
     return () => clearInterval(timer);
   }, []);
 
@@ -37,15 +37,15 @@ const Hero: React.FC = () => {
             key={currentIndex}
             src={sliderImages[currentIndex].url}
             alt={sliderImages[currentIndex].alt}
-            initial={{ opacity: 0, scale: 1.1 }}
-            animate={{ opacity: 0.5, scale: 1 }}
-            exit={{ opacity: 0, scale: 1.05 }}
-            transition={{ duration: 1.2, ease: "easeOut" }}
-            className="w-full h-full object-cover grayscale-[0.2]"
+            initial={{ opacity: 0, scale: 1.05 }}
+            animate={{ opacity: 0.8, scale: 1.2 }}
+            exit={{ opacity: 0, scale: 1.02 }}
+            transition={{ duration: 2.2, ease: "easeOut" }}
+            className="w-full h-full object-cover"
           />
         </AnimatePresence>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black" />
-        <div className="absolute inset-0 bg-black/20" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/80" />
+        <div className="absolute inset-0 bg-black/10" />
       </div>
 
       <div className="relative z-20 max-w-5xl">
