@@ -59,8 +59,8 @@ const HomePage: React.FC = () => {
             >
               <div className="absolute inset-0 bg-sky-500/10 blur-[100px] rounded-full" />
               <BeforeAfterSlider 
-                beforeImg="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=1200" 
-                afterImg="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1200"
+                beforeImg="https://github.com/Franck119/franck-skyblue/blob/main/Image%201.jpg?raw=true" 
+                afterImg="https://github.com/Franck119/franck-skyblue/blob/main/Image%202.jpg?raw=true"
               />
             </motion.div>
           </div>
