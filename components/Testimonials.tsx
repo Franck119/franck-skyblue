@@ -7,8 +7,11 @@ import { motion } from 'framer-motion';
 const Testimonials: React.FC = () => {
   const { lang, t } = useTranslation();
 
-  return (
-    <section className="py-40 bg-[#050505] overflow-hidden border-t border-white/5">
+ return (
+    <section className="py-40 bg-sky-950 overflow-hidden border-t border-white/5 relative">
+      {/* Subtle background glow for marine depth */}
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-sky-500/10 blur-[120px] rounded-full pointer-events-none" />
+      
       <div className="max-w-7xl mx-auto px-6 mb-24 text-center">
         <h2 className="text-sky-400 font-black tracking-[0.5em] uppercase text-[9px] mb-8">Testimonials</h2>
         <h3 className="text-6xl md:text-8xl font-black text-white tracking-tighter serif leading-none">
